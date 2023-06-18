@@ -10,12 +10,25 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: #140f0f;
 }
 
 h2{
   color: #fff;
   text-align: center;
   text-shadow: 2px 2px 2px #ffe59d;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li{
+  color: #fff;
 }
 
